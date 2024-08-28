@@ -4,3 +4,4 @@
 
 
 if you happen to be interested, here are my dot-files for my arch/i3 system !! 
+font: terminus
