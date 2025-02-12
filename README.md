@@ -3,4 +3,4 @@
 
 
 
-if you happen to be interested, here are my dot-files for my gentoo/i3 system !!
+if you happen to be interested , here are my dot-files for my gentoo/i3 system !!
