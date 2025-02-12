@@ -1,7 +1,6 @@
-![28-08-2024_10-51-44](https://github.com/user-attachments/assets/62a06a1e-d9f1-443c-8141-515ee37e9a1e)
+![image](https://github.com/user-attachments/assets/6b51c6be-a734-4048-bbac-6b972414192c)
+![image](https://github.com/user-attachments/assets/086dd622-aae8-468d-b311-96a9d0f9aafe)
 
-![12-08-2024_17-40-59](https://github.com/user-attachments/assets/94abd298-c54a-424a-9751-02de113e0a4a)
 
 
-if you happen to be interested, here are my dot-files for my arch/i3 system !! 
-font: terminus
+if you happen to be interested, here are my dot-files for my gentoo/i3 system !!
