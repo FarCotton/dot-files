@@ -295,3 +295,18 @@ exec --no-startup-id picom
 
 # screenshot 
 bindsym Print exec --no-startup-id gnome-screenshot -f ~/screenshots/$(date +%d-%m-%Y_%H-%M-%S).png
+
+
+
+### custom launcher ###
+
+
+
+# seed keybind
+bindsym $mod+Tab mode "seed"
+
+# defining seed
+mode "seed" {
+     bindsym p exec pcmanfm; mode "default"
+     bindsym f exec firefox-bin; mode "default"
+}
