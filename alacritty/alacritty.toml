@@ -1,0 +1,56 @@
+[font]
+size = 9.0
+
+[font.bold]
+family = "terminus"
+style = "Bold"
+
+[font.bold_italic]
+family = "terminus"
+style = "Bold Italic"
+
+[font.italic]
+family = "terminus"
+style = "Italic"
+
+[font.normal]
+family = "terminus"
+style = "Regular"
+
+[colors.normal]
+black = "#0a0a0a"
+
+red = "#44516d"
+
+green = "#c95d38"
+
+yellow = "#de9e6a"
+
+blue = "#8b7675"
+
+magenta = "#7e5f8c"
+
+cyan = "#8ca2c2"
+
+white = "#eff7d0"
+
+[colors.bright]
+black = "#181818"
+
+red = "#7d87a1"
+
+green = "#e9673c"
+
+yellow = "#e0b18b"
+
+blue = "#b9a192"
+
+magenta = "#9a7ebd"
+
+cyan = "#bccce2"
+
+white = "#ffffff"
+
+[window]
+title = "FarTerminal"
+dynamic_title = false
