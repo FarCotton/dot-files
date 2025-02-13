@@ -309,4 +309,6 @@ bindsym $mod+Tab mode "seed"
 mode "seed" {
      bindsym p exec pcmanfm; mode "default"
      bindsym f exec firefox-bin; mode "default"
+
+     bindsym $mod+Tab mode "default"
 }
