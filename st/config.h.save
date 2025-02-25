@@ -125,8 +125,8 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#gray90", /* default foreground colour */
+	"#black", /* default background colour */
 };
 
 
@@ -200,16 +200,16 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ ControlMask,          XK_equal,       zoom,           {.f = +1} },
-	{ ControlMask,         	XK_minus,       zoom,           {.f = -1} },
+	{ ControlMask,          XK_j,       zoom,           {.f = +1} },
+	{ ControlMask,          XK_minus,       zoom,           {.f = -1} },
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ ControlMask,          XK_k,           kscrollup,      {.i =  1} },
-	{ ControlMask,          XK_j,           kscrolldown,    {.i =  1} },
+	{ MODKEY,               XK_k,           kscrollup,      {.i =  1} },
+	{ MODKEY,               XK_j,           kscrolldown,    {.i =  1} },
 	{ MODKEY,               XK_a,           chgalpha,       {.f = -1} },
 	{ MODKEY,               XK_s,           chgalpha,       {.f = +1} },
 	{ MODKEY,               XK_d,           chgalpha,       {.f =  0} },
